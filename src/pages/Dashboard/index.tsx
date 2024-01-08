@@ -1,8 +1,9 @@
 import React, { type ReactElement } from 'react'
+import Dashboard from '../../components/Dashboard'
 
 function index (): ReactElement {
   return (
-    <div>Hello Dashoard</div>
+    <Dashboard></Dashboard>
   )
 }
 
