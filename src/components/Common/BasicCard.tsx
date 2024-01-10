@@ -25,7 +25,7 @@ export default function BasicCard (props: PropsType): ReactElement {
             {title}
           </Typography>
           <Typography variant="h5" component="div">
-            {count}
+            {count ?? 'Unknown'}
           </Typography>
           <Typography sx={{ mb: 1.5 }} color="text.secondary">
             {date}
@@ -34,9 +34,6 @@ export default function BasicCard (props: PropsType): ReactElement {
             {desc}
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions>
       </Card>
     </Container>
   )

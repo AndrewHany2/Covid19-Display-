@@ -1,5 +1,5 @@
 import React, { type ReactElement } from 'react'
-import Dashboard from '../../components/Dashboard'
+import Dashboard from '../components/Dashboard'
 
 function index (): ReactElement {
   return (
