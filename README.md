@@ -1,1 +1,3 @@
-# Covid19-Display-
+# Covid19-Display
+# node version latest
+# npm start
